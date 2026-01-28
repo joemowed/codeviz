@@ -45,7 +45,7 @@ export function activate(context: ExtensionContext) {
                     let source: VSCCDataSource;
                     if (targetDir == undefined)
                         targetDir = wsPath;
-                    source = new VSCCDataSource(wsPath, targetDir);
+                    source = new VSCCDataSource(wsPath);
                     if (source.data != undefined) {
                         let data = new VSCCDataPrep();
                         data.makeDataTable(source.data);
