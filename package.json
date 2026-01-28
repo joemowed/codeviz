@@ -61,6 +61,16 @@
         }
       ]
     },
+    "configuration": {
+      "title": "CodeViz Stats",
+      "properties": {
+        "CodeViz.autoDetectCounterOutputPath": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable this to get the Visual Studio Code Counter (VSCC) output path setting automatically when running \"CodeViz: Show statistics\".  Disable this to use the default VSCC output path \"%workspaceFolder%/.VSCodeCounter\"."
+        }
+      }
+    },
     "commands": [
       {
         "command": "CodeViz.show",
