@@ -1,6 +1,5 @@
 out
 node_modules
 .vscode-test/
-.VSCodeCounter/
-*.vsix
+.vscode/VSCodeCounter/
 package-lock*
